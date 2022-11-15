@@ -224,8 +224,9 @@ img {
     .about-info {
       display: grid;
       grid-template-areas:
-        'bioimage bio bio';
+        'bioimage bio';
       grid-gap: 1.2rem;
+      font-size: 1.3rem;
     }
 
     // Grid Area
@@ -236,7 +237,16 @@ img {
     .bio {
       grid-area: bio;
       border-left: 3px solid $main-color;
-      padding: 0.8rem;
+      padding: 1rem;
+    }
+
+    .bio p {
+      padding-left: 4rem;
+      padding-right: 4rem;
+    }
+
+    .bio h4 {
+      padding-top: 4rem;
     }
   }
 }

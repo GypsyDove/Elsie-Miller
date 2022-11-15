@@ -305,8 +305,9 @@ img {
 
 #about-a .about-info {
   display: grid;
-  grid-template-areas: 'bioimage bio bio';
-  grid-gap: 1.2rem; }
+  grid-template-areas: 'bioimage bio';
+  grid-gap: 1.2rem;
+  font-size: 1.3rem; }
 
 #about-a .bio-image {
   grid-area: bioimage; }
@@ -314,7 +315,14 @@ img {
 #about-a .bio {
   grid-area: bio;
   border-left: 3px solid #475C7A;
-  padding: 0.8rem; }
+  padding: 1rem; }
+
+#about-a .bio p {
+  padding-left: 4rem;
+  padding-right: 4rem; }
+
+#about-a .bio h4 {
+  padding-top: 4rem; }
 
 #contact-a .text-fields {
   display: grid;
