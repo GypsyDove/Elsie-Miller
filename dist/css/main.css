@@ -223,7 +223,8 @@ img {
     padding-top: 20%; }
     #header-home .header-content h1 {
       font-size: 4rem;
-      line-height: 1.2; }
+      line-height: 1.2;
+      padding: 2rem; }
 
 #header-inner {
   background: url("../images/background.png") no-repeat 20% 30%/cover;
