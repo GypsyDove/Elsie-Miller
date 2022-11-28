@@ -315,12 +315,14 @@ img {
   font-size: 1.3rem; }
 
 #about-a .bio-image {
-  grid-area: bioimage; }
+  grid-area: bioimage;
+  border-radius: 5rem; }
 
 #about-a .bio {
   grid-area: bio;
-  border-left: 3px solid #475C7A;
-  padding: 1rem; }
+  border: 3px solid #475C7A;
+  padding: 1rem;
+  border-radius: 5rem; }
 
 #about-a .bio p {
   padding-left: 4rem;

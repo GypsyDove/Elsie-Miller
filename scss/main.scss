@@ -238,12 +238,14 @@ img {
     // Grid Area
     .bio-image {
       grid-area: bioimage;
+      border-radius: 5rem;
     }
 
     .bio {
       grid-area: bio;
-      border-left: 3px solid $main-color;
+      border: 3px solid $main-color;
       padding: 1rem;
+      border-radius: 5rem;
     }
 
     .bio p {
