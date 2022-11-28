@@ -305,6 +305,9 @@ img {
         background: #685D79;
         color: #fff; }
 
+#about-a .container .lead {
+  font-size: 1.8rem; }
+
 #about-a .about-info {
   display: grid;
   grid-template-areas: 'bioimage bio';

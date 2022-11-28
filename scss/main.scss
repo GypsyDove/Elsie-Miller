@@ -221,7 +221,12 @@ img {
 // About Sections
 #about {
   // About A
-  &-a {
+
+&-a {
+    .container .lead {  
+        font-size: 1.8rem;
+      }
+
     .about-info {
       display: grid;
       grid-template-areas:
